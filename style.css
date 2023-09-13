@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: arial;
+    line-height: 1.8;
+}
+
+.w50 {
+    width: 48%;
+}
+
+.primary-button {
+    padding: 10px 30px;
+    color: #fff;
+    background: #ff5959;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+/* --------------------------------------------
+                Hero Area Styles
+   -------------------------------------------- */
+.hero-area {
+    min-height: 580px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(images/donation0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-area h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.hero-area p {
+    margin: 40px;
+}
+
+/* --------------------------------------------
+                Donate Today Styles
+   -------------------------------------------- */
+.donate-today {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.section-description {
+    color: #707070;
+    margin: 40px auto;
+}
+
+.donate-flex {
+    display: flex;
+    justify-content: space;
+    gap: 24px;
+}
+
+.donate-flex a {
+    display: flex;
+    text-decoration: none;
+    color: #707070;
+    /* padding: 10px 20px; */
+    background: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.donate-flex a h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.donate-flex a:hover {
+    border: 2px solid #ff5959;
+    background: #ffeeee;
+    color: #ff5959;
+}
+
+.donate-form {
+    margin-top: 50px;
+}
+
+.donate-form input[type=number] {
+    width: 100%;
+    color: #707070;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.donate-form input:focus {
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+    -moz-appearance: textfield;
+} */
+
+.donate-plan-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: left;
+}
+
+.donate-plan-card {
+    padding: 40px 40px;
+    background: #edf5f6;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.29);
+}
+
+.donate-plan-card:nth-child(1) {
+    background: #edf5f6;
+}
+
+.donate-plan-card:nth-child(2) {
+    background: #ffeeee;
+}
+
+.donate-plan-card:nth-child(3) {
+    background: #fff4d6;
+}
+
+/* Contribute Donation Styles */
+
+.contribute-donation {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.contribute-donation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contribute-contents {
+    text-align: left;
+}
+
+.contribute-image img {
+    width: 456px;
+    height: 477px;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+
+.d-flex-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Get Updates Form Styles */
+
+.get-update-form {
+    background: #fff4d6;
+    padding: 60px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.get-update-form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-update-form form input[type="email"] {
+    background: #ddd;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+    padding: 10px 20px;
+    min-width: 320px;
+}
+
+.get-update-form form input[type="submit"] {
+    background: #ff5959;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background: #0b0d17;
+    padding: 45px 0px;
+    color: #fff;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #FF5959;
+}
+footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200px;
+}
